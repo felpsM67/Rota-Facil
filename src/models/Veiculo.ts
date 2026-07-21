@@ -16,7 +16,7 @@ interface VeiculoAttributes {
 }
 
 interface VeiculoCreationAttributes
-  extends Optional<VeiculoAttributes, "id" | "ativo"> {}
+  extends Optional<VeiculoAttributes, "id" | "ativo" | "custoPorKm" > {}
 
 export class Veiculo
   extends Model<VeiculoAttributes, VeiculoCreationAttributes>
