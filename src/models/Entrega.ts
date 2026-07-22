@@ -18,12 +18,12 @@ interface EntregaAttributes {
   userId: number;
 
   nomeCliente: string;
-  telefoneCliente?: string;
+  telefoneCliente: string;
 
   rua: string;
-  numero?: string;
-  bairro?: string;
-  cidade?: string;
+  numero: string;
+  bairro: string;
+  cidade? : string;
   estado?: string;
   cep?: string;
   complemento?: string;
